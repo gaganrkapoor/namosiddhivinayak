@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://namosiddhivinayak.com.au/sitemap.xml

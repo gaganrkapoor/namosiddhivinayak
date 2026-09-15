@@ -1,0 +1,27 @@
+index.html wires up a badge for each of these brands. Drop each brand's logo file into
+this folder using the exact filename below and it appears automatically — no code
+changes needed. Status of what's already in place:
+
+  haldirams.png        - received
+  pattu.png             - received
+  katoomba.png          - received
+  punjas.png            - received
+  viya.jpg              - received
+  himalaya.png          - received
+  curry-masters.jpg     - received
+  bikaji.jpg            - received
+  britannia.webp        - received
+  sharmas.png           - received
+  godrej.png            - STILL NEEDED (badge currently falls back to showing "Godrej" as text)
+
+Notes:
+- A logo with a transparent or white background (or a square/circular crop) looks best;
+  each badge is a fixed 130x96px box and the logo is scaled to fit inside it
+  (object-fit: contain), so it won't be stretched or cropped.
+- If a file is missing (or fails to load), that badge automatically falls back to
+  showing the brand's name as text, so the row still looks complete either way.
+- To add a brand not in the list above, copy one of the <div class="brand-badge"> blocks
+  in the "BRANDS" section of index.html, point its <img src> at your new filename, and
+  update the alt text and fallback <span> text to match.
+- Logo files for the site's own logo (not brand logos) belong in assets/logo/, not here —
+  see assets/logo/PLACE_LOGO_HERE.txt.

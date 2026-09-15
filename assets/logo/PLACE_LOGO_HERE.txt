@@ -1,0 +1,11 @@
+index.html currently references the logo as:
+
+  ns-logo-no-bg.png   - main header/footer logo
+  favicon.png         - small square icon for the browser tab (still needed)
+
+If you replace the logo with a differently-named file, update the
+src="assets/logo/..." references in index.html to match (there are two: the
+header <a class="brand"> and the footer <div class="footer-brand">).
+
+If the logo file is missing or fails to load, the site automatically falls
+back to showing the text "Namo Siddhivinayak" in its place.
